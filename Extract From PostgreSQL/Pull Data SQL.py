@@ -19,3 +19,6 @@ except psycopg2.DatabaseError as e:
 finally:
 	if con:
 		con.close()
+
+#added test
+
